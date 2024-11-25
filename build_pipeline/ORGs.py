@@ -1,30 +1,30 @@
 
 
 all_species = [
-    "Homo_sapiens",
-    "Mus_musculus", # needs to be included for ref_aligned j region thingy
-    "Rattus_norvegicus",
-    "Gallus_gallus",
-    "Oryctolagus_cuniculus",
-    "Macaca_mulatta",
-    "Sus_scrofa",
-    # "Vicugna_pacos",
-    "Bos_taurus"
+    "Homo+sapiens",
+    "Mus+musculus", # needs to be included for ref_aligned j region thingy
+    "Rattus+norvegicus",
+    "Gallus+gallus",
+    "Oryctolagus+cuniculus",
+    "Macaca+mulatta",
+    "Sus+scrofa",
+    # "Vicugna+pacos",
+    "Bos+taurus"
     ]
 
 all_tr_species = [
-    # "Homo_sapiens",
-    # "Mus_musculus",
+    # "Homo+sapiens",
+    # "Mus+musculus",
     ]
 
 translations = {
-    "Homo_sapiens":"human",
-    "Mus_musculus":"mouse",
-    "Rattus_norvegicus":"rat",
-    "Gallus_gallus":"chicken",
-    "Oryctolagus_cuniculus":"rabbit",
-    "Macaca_mulatta":"rhesus",
-    "Sus_scrofa":"pig",
-    "Vicugna_pacos":"alpaca",
-    "Bos_taurus":"cow"
+    "Homo+sapiens":"human",
+    "Mus+musculus":"mouse",
+    "Rattus+norvegicus":"rat",
+    "Gallus+gallus":"chicken",
+    "Oryctolagus+cuniculus":"rabbit",
+    "Macaca+mulatta":"rhesus",
+    "Sus+scrofa":"pig",
+    "Vicugna+pacos":"alpaca",
+    "Bos+taurus":"cow"
     }

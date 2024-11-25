@@ -154,8 +154,8 @@ def main():
     for gene_type in urls:
         for species in all_species:
             if gene_type[0] in "ABGD" and species not in all_tr_species: continue # we don't want TCRs for all organisms
-            if gene_type[0] in "KL" and species == "Vicugna_pacos": continue # alpacas don't have light chains
-            if gene_type[0] in "K" and species == "Gallus_gallus": continue # chicken don't have kappa chains
+            if gene_type[0] in "KL" and species == "Vicugna+pacos": continue # alpacas don't have light chains
+            if gene_type[0] in "K" and species == "Gallus+gallus": continue # chicken don't have kappa chains
             if ripfasta(species, gene_type, force = False):
                 print("Failed to retrieve %s %s"%(species, gene_type), file=sys.stderr)
             else:
