@@ -31,6 +31,12 @@ from subprocess import Popen, PIPE
 from FastaIO import chunkify
 from ORGs import all_species, all_tr_species, translations
 
+# repair species names back from "name+name" url to "name_name" for fasta-parsing
+all_species = [i.replace('+', '_') for i in all_species]
+all_tr_species = [i.replace('+', '_') for i in all_tr_species]
+translations = {k.replace('+', '_') :v for k,v in translations.items()}
+
+
 amino_acids = sorted(list("QWERTYIPASDFGHKLCVNM"))
 acid_set = set( amino_acids+["."])
 
@@ -436,6 +442,7 @@ def main():
     for species in all_species:
         for chain_type in "HKL":
             if not os.path.isfile( os.path.join( fasta_path, "%s_%sV.fasta" % (species,chain_type)) ):
+                print("Can't find file:", os.path.join( fasta_path, "%s_%sV.fasta" % (species,chain_type)) )
                 continue
 
             print(species, chain_type)
