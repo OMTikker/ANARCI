@@ -142,10 +142,10 @@
 -------WVFGGGTKLTVL-
 >Macaca_mulatta|L|Macaca mulatta_AG07107|IGLJ2A*01
 -------WVFGGGTRLTVL-
->Gallus_gallus|H|Gallus gallus_Red Jungle fowl|IGHJ*01
---TAGSIDAWGHGTEVIVSS
 >Sus_scrofa|H|Sus scrofa|IGHJ4*01
 ----NGLESWGQGTLVYDAS
+>Gallus_gallus|H|Gallus gallus_Red Jungle fowl|IGHJ*01
+--TAGSIDAWGHGTEVIVSS
 >Bos_taurus|H|Bos taurus_Holstein|IGHJ1-4*01
 -----LFDNWGPGIQNTVSS
 >Bos_taurus|H|Bos taurus_Hereford|IGHJ1-4*02
@@ -162,18 +162,8 @@
 ---YYAMDLWGPGVEVVVSS
 >Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ2*01
 ---YWYFDLWGPGTPITISS
->Sus_scrofa|H|Sus scrofa|IGHJ2*01
----PWKLDHWGRGVLVTVSS
->Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ5-1*02
-----NWFDVWGPGVLVTVSS
->Macaca_mulatta|H|Macaca mulatta|IGHJ5-1*01
-----NRFDVWGPGVLVTVSS
->Macaca_mulatta|H|Macaca mulatta_RUp15|IGHJ5-1*03
-----NRFDVWGAGVLVTVSS
->Macaca_mulatta|H|Macaca mulatta|IGHJ5-2*01
-----NSLDVWGQGVLVTVSS
->Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ5-2*02
-----NSLDVWGRGVLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ4*01
+-----EYDYWGQGTQVTVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ6*05
 HYYYCCMDVWGKGTTVTVAS
 >Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ3*01
@@ -186,10 +176,12 @@ HYYYCCMDVWGKGTTVTVAS
 ----DAFDPWGPGTLVTVSS
 >Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ2*02
 ----DAFDPWGPGTLVTVSS
->Rattus_norvegicus|H|Rattus norvegicus_BN; Sprague-Dawley|IGHJ4*01
----YYVMDAWGQGASVTVSS
->Mus_musculus|H|Mus musculus|IGHJ4*01
----YYAMDYWGQGTSVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ6*02
+---YYGMDPWGPGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ6*01
+---YYGMDLWGPGTLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ7*01
+---YYGMDYWGKGTLVTVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ6*01
 YYYYYGMDVWGQGTTVTVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ6*02
@@ -198,22 +190,28 @@ YYYYYGMDVWGQGTTVTVSS
 YYYYYYMDVWGKGTTVTVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ6*04
 YYYYYGMDVWGKGTTVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ6*02
----YYGMDPWGPGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ6*01
----YYGMDLWGPGTLVTVSS
->Bos_taurus|H|Bos taurus_Holstein|IGHJ2-4*01
------YVDAWGQGLLVTVSS
+>Rattus_norvegicus|H|Rattus norvegicus_BN; Sprague-Dawley|IGHJ4*01
+---YYVMDAWGQGASVTVSS
+>Mus_musculus|H|Mus musculus|IGHJ4*01
+---YYAMDYWGQGTSVTVSS
+>Sus_scrofa|H|Sus scrofa|IGHJ2*01
+---PWKLDHWGRGVLVTVSS
+>Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ5-1*02
+----NWFDVWGPGVLVTVSS
+>Macaca_mulatta|H|Macaca mulatta|IGHJ5-1*01
+----NRFDVWGPGVLVTVSS
+>Macaca_mulatta|H|Macaca mulatta_RUp15|IGHJ5-1*03
+----NRFDVWGAGVLVTVSS
+>Macaca_mulatta|H|Macaca mulatta|IGHJ5-2*01
+----NSLDVWGQGVLVTVSS
+>Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ5-2*02
+----NSLDVWGRGVLVTVSS
 >Sus_scrofa|H|Sus scrofa|IGHJ1*01
 ---HGYLDSWGQGILVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ3*02
-----DRLDPWGQGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ3*01
----DTRLDLWGQGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ5*01
-----DWLDLWGQGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ5*02
-----DWLDLWGQGTLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ2*01
+---YRYLEVWGQGTLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ6*01
+-----DFGSWGQGTQVTVSS
 >Rattus_norvegicus|H|Rattus norvegicus_BN; Sprague-Dawley|IGHJ1*01
 --YYWYFDFWGPGTMVTVSS
 >Macaca_mulatta|H|Macaca mulatta_17573|IGHJ1*01
@@ -226,12 +224,8 @@ YYYYYGMDVWGKGTTVTVSS
 ---YWYFDVWGAGTTVTVSS
 >Mus_musculus|H|Mus musculus_A/J|IGHJ1*03
 ---YWYFDVWGTGTTVTVSS
->Homo_sapiens|H|Homo sapiens|IGHJ2*01
----YWYFDLWGRGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ4*01
------YFNLWGPGTLVTVSS
->Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ4*02
------YFNIWGPGTLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ5*01
+----PQFEYWGQGTLVTVS-
 >Homo_sapiens|H|Homo sapiens|IGHJ5*04
 ----NWFDPWGQGTLVSVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ5*01
@@ -242,6 +236,12 @@ YYYYYGMDVWGKGTTVTVSS
 -----WFAYWGQGTLVTVSA
 >Rattus_norvegicus|H|Rattus norvegicus_BN; Sprague-Dawley|IGHJ3*01
 ----NWFAYWGQGTLVTVSS
+>Homo_sapiens|H|Homo sapiens|IGHJ2*01
+---YWYFDLWGRGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ4*01
+-----YFNLWGPGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ4*02
+-----YFNIWGPGTLVTVSS
 >Homo_sapiens|H|Homo sapiens|IGHJ1*01
 ---AEYFQHWGQGTLVTVSS
 >Mus_musculus|H|Mus musculus|IGHJ2*02
@@ -260,3 +260,15 @@ YYYYYGMDVWGKGTTVTVSS
 -----YFDYWGQGTLVTVSS
 >Macaca_mulatta|H|Macaca mulatta_AG07107|IGHJ4*01
 -----YFDYWGQGVLVTVSS
+>Bos_taurus|H|Bos taurus_Holstein|IGHJ2-4*01
+-----YVDAWGQGLLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ3*02
+----DRLDPWGQGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ3*01
+---DTRLDLWGQGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ5*01
+----DWLDLWGQGTLVTVSS
+>Oryctolagus_cuniculus|H|Oryctolagus cuniculus|IGHJ5*02
+----DWLDLWGQGTLVTVSS
+>Vicugna_pacos|H|Vicugna pacos|IGHJ3*01
+----NALDAWGQGTLVTVSS

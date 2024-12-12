@@ -38,7 +38,10 @@ try:
     ANARCI_LOC = importlib.util.find_spec("anarci").submodule_search_locations[0]
 except Exception as e:
     sys.stderr.write(e.message)
+    #sys.stderr.write(str(e))  # Updated error handling
     sys.exit(1)
+
+    
 
 os.chdir("build_pipeline")
 

@@ -8,7 +8,7 @@ all_species = [
     "Oryctolagus+cuniculus",
     "Macaca+mulatta",
     "Sus+scrofa",
-    # "Vicugna+pacos",
+    "Vicugna+pacos",
     "Bos+taurus"
     ]
 
