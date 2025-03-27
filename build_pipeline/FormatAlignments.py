@@ -84,6 +84,12 @@ def read_alignment(input_file, read_all=False, region_name=""):
                     pass
                 elif fields["allele"].split("*")[-1].strip()!="01":
                     continue
+                
+                # Functional mouse IGLV3 contains * in the end and we have to fix it (or it will be removed next):
+                # QLVLTQSSSASFSLGASAKLTCTLSSQHSTYTIEWYQQQPLKPPKYVMELKKDGSHSTGDGIPDRFSGSSSGADRYLSISNIQPEDEAIYICGVGDTIKEQFV*
+                if fields["allele"]== 'IGLV3*01' and fields['species'].startswith('Mus musculus'):
+                    sequence = sequence.strip('*')
+
                 if set(list(sequence)) - acid_set:
     #                print >> sys.stderr,"Unexpected character in sequence"
     #                print >> sys.stderr,sequence

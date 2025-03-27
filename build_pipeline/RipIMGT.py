@@ -41,6 +41,8 @@ urls = { "HV": "https://www.imgt.org/genedb/GENElect?query=7.3+IGHV&species=%s",
          #"HC": "https://www.imgt.org/genedb/GENElect?query=7.3+IGHC&species=%s",
          #"KC": "https://www.imgt.org/genedb/GENElect?query=7.3+IGKC&species=%s",
          #"LC": "https://www.imgt.org/genedb/GENElect?query=7.3+IGLC&species=%s",
+
+         #"LV": https://www.imgt.org/genedb/GENElect?query=7.3+IGLV&species=Homo+sapiens   # what about human LAMBDA Sequences???
        }
 
 
